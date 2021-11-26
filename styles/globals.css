@@ -1,16 +1,61 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif !important;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-blue {
+  background-color: aqua;
+}
+.bg-green {
+  background-color: green;
+}
+h1 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #fff;
+}
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+  color: #fff;
+}
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.post {
+  position: relative;
+}
+
+.postDesc {
+  position: absolute;
+  bottom: 6px;
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  box-shadow: -1px -90px 77px -42px rgba(0, 0, 0, 0.73) inset;
+}
+.postDescMd {
+  position: absolute;
+  bottom: 6px;
+  height: 90%;
+  width: 99%;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  box-shadow: -1px -90px 77px -42px rgba(0, 0, 0, 0.73) inset;
 }
