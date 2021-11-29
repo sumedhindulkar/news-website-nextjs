@@ -1,9 +1,22 @@
-import Head from "next/head";
+// import Head from "next/head";
 import { Header } from "../components";
-export default function Home() {
+import Mainsection from "../components/MainSection";
+
+// export const getStaticProps = async () => {
+//   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+//   const data = await res.json();
+
+//   return {
+//     props: {
+//       data,
+//     },
+//   };
+// };
+export default function Home({ data }) {
   return (
     <>
       <Header />
+      <Mainsection />
     </>
   );
 }
